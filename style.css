@@ -1,0 +1,46 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    background-color: black;
+    color: yellow;
+    width: 80vh;
+    padding: 30px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Creepster", system-ui;
+    letter-spacing: 10px;
+}
+
+.para {
+    text-align: center;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: bold;
+}
